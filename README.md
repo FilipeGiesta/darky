@@ -1,2 +1,2 @@
-# darky
+# Darky
 Dark mode browser extension
