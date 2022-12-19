@@ -1,0 +1,13 @@
+{
+	"name": "Darky",
+	"description": "Renders webpage in dark mode",
+	"version": "2.0",
+	"manifest_version": 2,
+	"content_scripts": [
+		{
+			"matches": ["<all_urls>"],
+			"css": ["darky.css"],
+			"js": ["darky.js"]
+		}
+	]
+}
